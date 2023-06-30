@@ -83,7 +83,7 @@ html:focus-within {
   }
 
   h1 {
-    font-family: 'Big Shoulders Display', cursive;
+    font-family: "Big Shoulders Display", cursive;
     font-weight: 700;
     padding-left: 50px;
     text-transform: uppercase;
@@ -103,7 +103,8 @@ html:focus-within {
     margin-left: 50px;
     margin-bottom: 50px;
     padding: 10px 24px;
-    border-color: white;
+    border: 2px solid;
+    border-color: hsl(0, 0%, 95%);
     
   }
 
@@ -115,22 +116,25 @@ html:focus-within {
     color: hsl(184, 100%, 22%); 
   }
 
-  .button1:hover {
-    color:white;
-    background-color: hsl(31, 77%, 52%);
-  }
 
   .button3 {
     color: hsl(179, 100%, 13%);
   }
 
+
+  .button1:hover {
+    color:hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+  }
+
+ 
   .button2:hover {
-    color:white;
+    color:hsl(0, 0%, 95%);
     background-color: hsl(184, 100%, 22%);
   }
 
   .button3:hover {
-    color:white;
+    color:hsl(0, 0%, 95%);
     background-color: hsl(179, 100%, 13%);
   }
 
@@ -154,11 +158,12 @@ html:focus-within {
     
   }
 
-  @media (max-width: 500px)  {
+  @media (max-width: 700px)  {
   
 
     .container-box {
-        display: block; 
+        display: flex;
+        flex-direction: column; 
         padding-left: 60px;
         padding-right: 60px;
         
@@ -181,7 +186,3 @@ html:focus-within {
       position: relative;
       top: 25px;
   }
-
-
-  
-  
