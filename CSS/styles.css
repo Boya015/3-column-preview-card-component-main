@@ -54,7 +54,7 @@ html:focus-within {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    margin: 50px 0px 50px 0px;
     padding: 0px 100px 0px 100px;
   }
 
@@ -85,6 +85,7 @@ html:focus-within {
   h1 {
     font-family: "Big Shoulders Display", cursive;
     font-weight: 700;
+    font-size: 3rem;
     padding-left: 50px;
     text-transform: uppercase;
     color:  hsla(0, 0%, 100%, 0.75);
@@ -187,3 +188,10 @@ html:focus-within {
       position: relative;
       top: 25px;
   }
+
+@media (max-width: 375px) {
+  .container-box {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
